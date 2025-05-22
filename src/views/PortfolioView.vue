@@ -6,48 +6,48 @@ export default {
       items: [
         {
           id: 1,
-          name: 'Personal Website',
-          imageUrl: 'portfolio_v2',
-          status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
-          tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/Portofolio-v2',
-          demo: 'https://bagasrakha.netlify.app/'
-        },
-        {
-          id: 2,
-          name: 'Sahabat Muslim',
-          imageUrl: 'sahabatmuslim',
-          status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
-          tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/muslim-companion',
-          demo: 'https://sahabat-muslim.netlify.app/'
-        },
-        {
-          id: 3,
-          name: 'SISTEKDES',
-          imageUrl: 'sistekdes',
-          status: 'Sistem Informasi dan Teknologi Desa, a web application to assist village government work in administration, population data management, community services, etc.',
-          tech: 'Laravel 9, Bootstrap',
+          name: 'SIM JADWAL',
+          imageUrl: 'jadwal',
+          status: 'Sistem Manajemen Jadwal Kelas ini, yang saya kembangkan dalam dua bulan menggunakan Laravel, jQuery, dan SQL, dirancang untuk mengelola jadwal mata kuliah berdasarkan ruangan dan kelas di Universitas Muhammadiyah Yogyakarta.',
+          tech: 'laravel 11, bootstrap',
           github: 'null',
           demo: 'null'
         },
         {
+          id: 2,
+          name: 'SIM Sertifikat',
+          imageUrl: 'sertifikat',
+          status: 'Sistem Manajemen Pendaftaran Sertifikasi ini, yang saya buat dalam satu bulan menggunakan Laravel, jQuery, dan SQL, dirancang untuk memfasilitasi pendaftaran sertifikasi dan pengajuan reimbursement bagi program studi Teknik Mesin di Universitas Muhammadiyah Yogyakarta.',
+          tech: 'laravel 11, bootstrap',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 3,
+          name: 'LOISTA Website',
+          imageUrl: 'loista',
+          status: 'Pembuatan CMS dan Landing Page Website Perusahaan Furniture ini, yang saya kerjakan dalam dua bulan menggunakan Laravel dan MySQL, mencakup pengembangan CMS untuk memudahkan admin dalam mengelola konten, dan sudah dihosting serta dapat diakses secara publik.',
+          tech: 'Laravel 11, Bootstrap',
+          github: 'null',
+          demo: 'https://loista.co.id/home'
+        },
+        {
           id: 4,
-          name: 'Bumdesma',
-          imageUrl: 'bumdesma',
-          status: 'a web application used by village-owned enterprises at the sub-district level to make it easier for them in terms of accounting that is equipped with a microfinance balance.',
-          tech: 'Laravel 8, Bootstrap',
+          name: 'Toko Indonesia',
+          imageUrl: 'shop',
+          status: 'Website Online Shop ini, yang saya buat dalam satu bulan menggunakan Laravel dan MySQL, telah terintegrasi dengan fitur admin untuk memantau status barang, meskipun belum ada payment gateway, dan dibuat khusus sebagai proyek portofolio.',
+          tech: 'Laravel 11, Bootstrap',
           github: 'null',
           demo: 'null'
         },
         {
           id: 5,
-          name: 'SP2SE',
-          imageUrl: 'sp2se',
-          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
-          tech: 'Codeigniter 3, Bootstrap',
+          name: 'Symply Haircut Website',
+          imageUrl: 'simply',
+          status: 'Pembuatan Landing Page Barbershop ini, yang saya kerjakan dalam dua bulan dengan fokus pada desain tampilan, belum dilengkapi fitur admin dan lebih difokuskan untuk iklan serta pendaftaran Akademi Barbershop. Website ini sudah dihosting dan dapat diakses secara publik.',
+          tech: 'Laravel 11, Bootstrap',
           github: 'null',
-          demo: 'null'
+          demo: 'https://simplyhaircut.id/'
         }
       ]
     };
@@ -55,14 +55,14 @@ export default {
 }
 </script>
 <template>
-  <div class="px-5 py-5 md:px-12 md:py-10 text-left text-amber-50 mx-3">
+  <div class="px-5 py-5 md:px-12 md:py-10 text-left text-cyan-50 mx-3">
     <article data-page="about">
       <header>
         <div
           class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">
           <!-- <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate"></div> -->
           <h4>Past Project Experience</h4>
-          <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-amber-300">
+          <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-cyan-300">
             Explore the projects I've worked on so far</h4>
         </div>
       </header>
@@ -71,7 +71,7 @@ export default {
           <div class="grid grid-cols-1 gap-4 pb-32 md:grid-cols-3 md:gap-3 xl:grid-cols-3 xl:gap-3 2xl:gap-5 fade-zoom-in">
             <div v-for="item in items" :key="item.id">
               <div
-                class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5 ">
+                class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-cyan-50 md:gap-3 px-5 py-5 lg:px-5 ">
                 <div class="flex h-12 w-12 items-center justify-center p-0 h-full w-full lg:p-0 zoom-in">
                   <img alt="HTML" loading="lazy" decoding="async" data-nimg="1" class="drop-shadow-xl rounded rounded-xl"
                     :src="'/img/portfolio-' + item.imageUrl + '.png'">
@@ -81,7 +81,7 @@ export default {
                   </div>
                   <div class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm">
                     {{ item.status }}</div>
-                  <div class="w-full mt-4 text-normal text-sm text-left text-amber-200">
+                  <div class="w-full mt-4 text-normal text-sm text-left text-cyan-200">
                     {{ item.tech }}
                   </div>
                   <div class="w-full flex justify-end">
@@ -121,7 +121,7 @@ export default {
   transform: translateY(-8px);
 }
 svg:hover{
-  stroke: #ffdb70;
+  stroke: #29aacf;
 }
 @keyframes fadeZoomIn {
   0% {
