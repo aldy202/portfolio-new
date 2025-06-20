@@ -6,19 +6,19 @@ export default {
       items: [
         {
           id: 1,
-          name: 'SIM JADWAL',
-          imageUrl: 'jadwal',
-          status: 'Sistem Manajemen Jadwal Kelas ini, yang saya kembangkan dalam dua bulan menggunakan Laravel, jQuery, dan SQL, dirancang untuk mengelola jadwal mata kuliah berdasarkan ruangan dan kelas di Universitas Muhammadiyah Yogyakarta.',
-          tech: 'laravel 11, bootstrap',
+          name: 'undangan Online Siap Pakai',
+          imageUrl: 'undangan',
+          status: 'Platform untuk membuat dan membagikan undangan digital secara online untuk berbagai acara.',
+          tech: 'Laravel 11, Bootstrap',
           github: 'null',
           demo: 'null'
         },
         {
           id: 2,
-          name: 'SIM Sertifikat',
-          imageUrl: 'sertifikat',
-          status: 'Sistem Manajemen Pendaftaran Sertifikasi ini, yang saya buat dalam satu bulan menggunakan Laravel, jQuery, dan SQL, dirancang untuk memfasilitasi pendaftaran sertifikasi dan pengajuan reimbursement bagi program studi Teknik Mesin di Universitas Muhammadiyah Yogyakarta.',
-          tech: 'laravel 11, bootstrap',
+          name: 'Company Profile',
+          imageUrl: 'company',
+          status: 'Situs web informatif untuk menampilkan profil, layanan, dan portofolio sebuah perusahaan.',
+          tech: 'Laravel 11, Bootstrap',
           github: 'null',
           demo: 'null'
         },

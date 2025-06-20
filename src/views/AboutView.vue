@@ -97,17 +97,16 @@ export default {
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Halo, nama saya Aldy Ahmad Fauzi. Saya adalah seorang pengembang web yang lulusan
-            Sarjana
-            Teknologi Informasi dari Universitas Muhammadiyah Yogyakarta, dengan spesialisasi dalam pengembangan
-            aplikasi berbasis web menggunakan PHP (Laravel), HTML, CSS, dan JavaScript. Saya memiliki pengalaman dalam
-            menggunakan Bootstrap untuk pengembangan frontend, serta pemahaman yang kuat mengenai Ajax dan jQuery.
+            &nbsp; &nbsp; &nbsp; Hello, my name is Aldy Ahmad Fauzi. I am a web developer with a Bachelor of Information Technology degree
+            from Universitas Muhammadiyah Yogyakarta, specializing in web-based application development using PHP
+            (Laravel), HTML, CSS, and JavaScript. I have experience using Bootstrap for front-end development, as well
+            as a strong understanding of Ajax and jQuery.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; Selain itu, saya mahir dalam bekerja dengan database MySQL dan memiliki keterampilan
-            analitis yang baik, serta kemampuan memecahkan masalah yang efektif. Saya percaya dalam bekerja secara
-            kolaboratif dalam tim, namun juga mampu menyelesaikan tugas secara mandiri. Dengan keterampilan komunikasi
-            yang baik, saya berkomitmen untuk memberikan hasil terbaik dalam setiap proyek yang saya kerjakan.
+            &nbsp; &nbsp; &nbsp; Additionally, I am proficient in working with MySQL databases and possess strong analytical and effective
+            problem-solving skills. I believe in working collaboratively within a team, yet I am also capable of
+            completing tasks independently. With good communication skills, I am committed to delivering the best
+            results in every project I undertake.
           </p>
         </div>
 
